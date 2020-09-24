@@ -25,7 +25,6 @@
 package com.cloudbees.hudson.plugins.folder.computed;
 
 import com.infradna.tool.bridge_method_injector.WithBridgeMethods;
-import com.jcraft.jzlib.GZIPInputStream;
 import edu.umd.cs.findbugs.annotations.NonNull;
 import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import hudson.AbortException;
@@ -69,6 +68,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.zip.GZIPInputStream;
 import javax.annotation.CheckForNull;
 import javax.annotation.Nonnull;
 import javax.servlet.ServletException;
